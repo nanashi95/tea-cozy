@@ -7,5 +7,12 @@ html {
     text-align: center;
 }
 
+.main-header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
 
+}
 
