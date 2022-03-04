@@ -7,7 +7,7 @@ html {
     text-align: center;
 }
 
-.main-header {
+.navbar {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
@@ -15,24 +15,22 @@ html {
     top: 0px;
 }
 
-.site-title {
+.navbar-title {
     font-size: 50px;
     position: absolute;
     left: 10px;
     font-family: 'Dancing Script', cursive;
 }
 
-.primary-navigation {
+.navbar-items {
     position: absolute;
     right: 10px;
     display: flex;
     justify-content: space-around;
 }
 
-.nav-item{
+.navbar-item{
     color: seashell;
     padding: 0px 15px;
     text-decoration: underline;
 }
-
-
