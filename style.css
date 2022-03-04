@@ -24,11 +24,15 @@ html {
 
 .primary-navigation {
     position: absolute;
-    right: 0px;
+    right: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.navigation-item a{
+.nav-item{
     color: seashell;
+    padding: 0px 15px;
+    text-decoration: underline;
 }
 
 
