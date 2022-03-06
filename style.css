@@ -2,7 +2,7 @@ html {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    background-color: black;
+    background-color: gray;
     opacity: 0.9;
     text-align: center;
 }
@@ -12,7 +12,7 @@ html {
     width: 100%;
     border-bottom: 1px solid seashell;
     background-color: black;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 99;
 }
@@ -42,18 +42,26 @@ html {
     color: seashell;
 }
 
-.mission-section {
+.mission-section-container {
     height: 700px;
-    width: 1200px;
     width: 100%;
-    position: relative;
-    top: 50px;
     background-color: aqua;
+    display: flex;
     justify-content: center;
 }
 
-.mission-statement {
-    background-color: black;
-    text-align: center;
-    position: absolute;
+.mission-section {
+    height: 700px;
+    width: 1200px;
+    background-color: red;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
 }
+
+.mission-banner {
+    width: 100%;
+    background-color: black;
+}
+
+
