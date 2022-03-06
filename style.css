@@ -65,3 +65,37 @@ html {
 }
 
 
+.tea-of-the-month-container{
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.tOtM-section, .teas-container {
+    width: 1000px;
+    background-color: red;
+}
+
+.teas-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.centered {
+    justify-content: center;
+}
+
+.margined {
+    margin: 20px 15px;
+}
+
+.tea-item {
+    background-color: blueviolet;
+}
+
+.tea-item img{
+    width: 300px;
+    height: 200px;
+}
