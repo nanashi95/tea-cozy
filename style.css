@@ -1,0 +1,148 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.navbar {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.navbar-title {
+    font-size: 50px;
+    position: absolute;
+    left: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-item{
+    color: seashell;
+    padding: 0px 15px;
+    text-decoration: underline;
+}
+
+
+.navbar-item a{
+    color: seashell;
+}
+
+.mission-section-container {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-section {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+}
+
+.mission-banner {
+    width: 100%;
+    background-color: black;
+}
+
+
+.tea-of-the-month-container{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tOtM-section, .teas-container {
+    width: 1000px;
+}
+
+.teas-container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.centered {
+    justify-content: center;
+}
+
+.margined {
+    margin: 20px 15px;
+}
+
+.tea-item img{
+    width: 300px;
+    height: 200px;
+}
+
+.location-section-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-section {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 1200px;
+}
+
+.location-section-title {
+    margin-top: 60px;
+}
+
+.locations-row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.locations-item {
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    border: 1px solid white;
+    margin: 0 40px;;
+}
+
+.locations-item p{
+    padding: 10px 0;
+}
+
+.address-section-container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.address-section p{
+    padding: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .copyright {
+    padding-left: 20px;
+}
